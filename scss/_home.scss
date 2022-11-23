@@ -114,3 +114,83 @@
         }
     }
 }
+
+.s-story {
+    width: 100%;
+    padding-top: 16rem;
+    padding-bottom: 8rem;
+    background-image: url(../assets/bg-story.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    .left {
+        width: 100%;
+        max-width: 62.9rem;
+        h2 {
+            margin-top: 2.8rem;
+            margin-bottom: 2.4rem;
+            max-width: 50.2rem;
+        }
+        p {
+            margin-bottom: 5.6rem;
+        }
+        .corp {
+            display: flex;
+            align-items: center;
+            p {
+                margin-bottom: 0;
+                font-size: 1.6rem;
+                line-height: 160%;
+                max-width: 32.4rem;
+                margin-left: 4.6rem;
+            }
+        }
+    }
+}
+
+.kratos-atreus {
+    position: relative;
+    left: 11rem;
+    top: -4.5rem;
+}
+
+.s-characters
+{
+    padding-top: 17.6rem;
+    padding-bottom: 14.3rem;
+    background-image: url(../assets/bg-characters.png);
+    background-position: center center;
+    overflow: hidden;
+    .description {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .left {
+            width: 100%;
+            max-width: 61.2rem;
+            h2 {
+                margin-top: 2.8rem;
+                margin-bottom: 2.4rem;
+            }
+        }
+        .right {
+            display: flex;
+            align-items: center;
+            .text {
+                span {
+                    display: block;
+                    font-weight: 500;
+                    font-size: 1.8rem;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                    max-width: 14.3rem;
+                    margin-top: 2.2rem;;
+                }
+            }
+        }
+    }
+}
