@@ -25,8 +25,7 @@ Projeto desenvolvido durante o evento DEV.PROCESS oferecido pela Codeboost
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML 
-- CSS
+- HTML e CSS
 - SASS
 - JavaScript
 
